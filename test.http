@@ -1,0 +1,158 @@
+GET http://localhost:5000/api/notes
+
+###
+POST  http://localhost:5000/api/notes/create
+content-type:application/json
+
+{
+    "title":"for update",
+    "content":"string",
+    "category":"string"
+
+}
+###
+GET http://localhost:5000/api/notes/629970f2754aee6d736c2a95
+###
+DELETE http://localhost:5000/api/notes/629970f2754aee6d736c2a95
+###
+PUT http://localhost:5000/api/notes/62997513eefa3ab86b55e3a2
+Content-Type: application/json
+
+{
+    "title":"updated",
+    "content":"done",
+    "category":"done"
+}
+###
+POST http://localhost:5000/api/users
+content-type:application/json
+
+{
+    "name":"supraja",
+    "email":"ss872@gmail.com",
+    "password":"ss",
+    "pic":"wastefellowlovespotti"
+}
+###
+POST http://localhost:5000/api/users/login
+content-type:application/json
+
+{
+    "email":"change@gmail.com",
+    "password":"change"
+}
+###
+POST http://localhost:5000/api/users
+content-type:application/json
+
+{
+    "name":"ss",
+    "email":"ss@gmail.com",
+    "password":"ss",
+    "pic":"wastefellowlovespotti"
+}
+###
+POST http://localhost:5000/api/users
+content-type:application/json
+
+{
+    "name":"ss",
+    "email":"uuuu@gmail.com",
+    "password":"ss",
+    "pic":"wastefellowlovespotti"
+}
+###
+POST http://localhost:5000/api/users
+content-type:application/json
+
+{
+    "name":"angry",
+    "email":"angry@gmail.com",
+    "password":"afmid",
+    "pic":"wastefellowlovespotti"
+}
+###
+POST http://localhost:5000/api/users/login
+content-type:application/json
+
+{
+    "email":"afmid@gmail.com",
+    "password":"afmid"
+}
+###
+
+POST http://localhost:5000/api/notes/create 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYTE5NjFlOTVkMWNjOWEzNjIzZDg5ZSIsImlhdCI6MTY1NDc2MzExOSwiZXhwIjoxNjU3MzU1MTE5fQ.KAsJ4_1q-71v7BuqjlkL38fcjsYFDeL-D3EsRR14jkk
+content-type: application/json 
+
+{
+   "title":"note by b",
+   "content":"8722 forever",
+   "category":"ss"
+}
+###
+GET http://localhost:5000/api/notes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWYwNGNhZGExNTg4Y2QyYjc4N2FhMyIsImlhdCI6MTY1NTM2MjI2OSwiZXhwIjoxNjU3OTU0MjY5fQ.F6m1OzaKJSeXtc9yuvsLAzyokpYz_oRw1pSuTJuWork
+###
+POST http://localhost:5000/api/notes/create 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWYwNGNhZGExNTg4Y2QyYjc4N2FhMyIsImlhdCI6MTY1NTM2MjI2OSwiZXhwIjoxNjU3OTU0MjY5fQ.F6m1OzaKJSeXtc9yuvsLAzyokpYz_oRw1pSuTJuWork
+content-type: application/json 
+
+{
+   "title":"note by change",
+   "content":"8722 forever",
+   "category":"ss"
+}
+###
+POST http://localhost:5000/api/users/login
+content-type:application/json
+
+{
+    "email":"change@gmail.com",
+    "password":"change"
+}
+###
+GET http://localhost:5000/api/notes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWYwNGNhZGExNTg4Y2QyYjc4N2FhMyIsImlhdCI6MTY1NDg0MDcyMywiZXhwIjoxNjU3NDMyNzIzfQ.XmiiyJgaJ3cd49sz6gM3AztG138BLgKTBOLdCzzxVXE
+###
+POST http://localhost:5000/api/notes/create 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWYwNGNhZGExNTg4Y2QyYjc4N2FhMyIsImlhdCI6MTY1NDg0MDcyMywiZXhwIjoxNjU3NDMyNzIzfQ.XmiiyJgaJ3cd49sz6gM3AztG138BLgKTBOLdCzzxVXE
+content-type: application/json 
+
+{
+   "title":"note by change",
+   "content":"8722 forever",
+   "category":"ss"
+}
+###
+PUT http://localhost:5000/api/notes/62a36880ac3d74651b7ac824
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWYwNGNhZGExNTg4Y2QyYjc4N2FhMyIsImlhdCI6MTY1NDg3NjI2NCwiZXhwIjoxNjU3NDY4MjY0fQ.7n3c-scR0l3pO6oSWT5eyxK_ufxFluaBl_eC-Bafbmc
+Content-Type: application/json
+
+{
+
+    "title":"updated",
+    "content":"done",
+    "category":"done"
+}
+###
+POST http://localhost:5000/api/users/login
+content-type:application/json
+
+{
+    "email":"change@gmail.com",
+    "password":"change"
+}
+###
+POST http://localhost:5000/api/notes/create 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWYwNGNhZGExNTg4Y2QyYjc4N2FhMyIsImlhdCI6MTY1NDg3NjI2NCwiZXhwIjoxNjU3NDY4MjY0fQ.7n3c-scR0l3pO6oSWT5eyxK_ufxFluaBl_eC-Bafbmc
+content-type: application/json 
+
+{
+   "title":"note by change",
+   "content":"8722 forever",
+   "category":"ss"
+}
+###
+GET http://localhost:5000/api/notes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWYwNGNhZGExNTg4Y2QyYjc4N2FhMyIsImlhdCI6MTY1NDg3NjI2NCwiZXhwIjoxNjU3NDY4MjY0fQ.7n3c-scR0l3pO6oSWT5eyxK_ufxFluaBl_eC-Bafbmc
