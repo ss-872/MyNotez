@@ -1,0 +1,25 @@
+.landingPage{
+    background-image: url("https://www.insbright.com/wp-content/uploads/3205/study-wallpaper-download.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    vertical-align: auto;
+    background-size: 100% 100%;
+   
+    
+}
+.heading{
+    text-align:  center;
+    
+}
+
+.btn-lg {
+    padding: 10px 50px;
+    font-size: 40px;
+    border-radius: 10px;
+    width: '100%',
+
+}
