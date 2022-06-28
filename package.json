@@ -9,6 +9,9 @@
     "dev": "concurrently \"npm start\" \"npm run client\"",
     "heroku-postbuild": "cd frontend && npm install --only=dev && npm install && npm run build"
   },
+  "engines": {
+    "node": "v14.17.2"
+  },
   "author": "supraja",
   "license": "ISC",
   "dependencies": {
